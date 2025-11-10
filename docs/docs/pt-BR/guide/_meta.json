@@ -28,10 +28,5 @@
     "type": "dir",
     "name": "roadmap",
     "label": "Roadmap"
-  },
-  {
-    "type": "dir",
-    "name": "commercial",
-    "label": "Uso Comercial"
   }
 ]

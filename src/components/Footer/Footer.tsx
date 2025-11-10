@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer({ fixed = true }: { fixed?: boolean }) {
@@ -8,9 +7,9 @@ export default function Footer({ fixed = true }: { fixed?: boolean }) {
         fixed ? "md:fixed md:bottom-2" : ""
       }`}
     >
-      Desenvolvido gratuitamente pela{" "}
-      <Link href="https://www.hotay.dev" target="_blank">
-        <Image className="ml-2" src="/images/hotay.svg" alt="Logo da Hotay" width={70} height={23} />
+      Desenvolvido gratuitamente por{" "}
+      <Link href="https://hoffmann.io" target="_blank" className="ml-1">
+        Taylor Hoffmann
       </Link>
     </div>
   );

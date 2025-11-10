@@ -45,7 +45,7 @@ export default function Login() {
       </div>
       <div className="max-w-lg w-full mb-8 flex justify-center gap-3">
         <a
-          href="https://www.youtube.com/watch?v=h-MU76Wc4E8"
+          href="https://www.youtube.com/watch?v=l2nrsHpneqg"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm hover:bg-red-200 hover:text-red-700 transition-all"
@@ -93,8 +93,7 @@ export default function Login() {
       </div>
       <Footer />
       <DialogComponent open={open} setOpen={setOpen} title="Sobre este sistema">
-        O Avalia é um sistema criado pela Hotay para ser utilizado nas avaliações de projetos de Feiras de Iniciação
-        Científica.
+        O Avalia é um sistema criado para ser utilizado nas avaliações de projetos de Feiras de Iniciação Científica.
         <br />O sistema é livre para qualquer um utilizar e oferece funcionalidades de orquestração de notas e
         avaliações dos projetos científicos apresentados.
         <br />

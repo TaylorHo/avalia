@@ -1,5 +1,4 @@
 import type { Url } from "next/dist/shared/lib/router/router";
-import Image from "next/image";
 import Link from "next/link";
 import { IoPower } from "react-icons/io5";
 import HeaderTitle from "@/components/HeaderTitle/HeaderTitle";
@@ -57,9 +56,9 @@ export default function AdminMenu({
         </div>
       </div>
       <div className="z-10 text-gray-500 text-center flex flex-col items-center justify-center py-4 w-full font-light relative">
-        Desenvolvido gratuitamente pela
-        <Link href="https://www.hotay.dev" target="_blank" rel="noopener noreferrer" className="mt-2">
-          <Image src="/images/hotay.svg" alt="Logo da Hotay" width={70} height={23} />
+        Desenvolvido gratuitamente por{" "}
+        <Link href="https://hoffmann.io" target="_blank" rel="noopener noreferrer" className="mt-2 ml-1">
+          Taylor Hoffmann
         </Link>
       </div>
     </div>

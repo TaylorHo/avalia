@@ -11,7 +11,7 @@ hero:
       link: /guide/introduction/general
     - theme: alt
       text: GitHub
-      link: https://github.com/hotaydev/avalia
+      link: https://github.com/TaylorHo/avalia
   image:
     src: /icon.png
     alt: Avalia Docs Logo

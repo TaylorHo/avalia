@@ -5,13 +5,13 @@ head:
       content: Avalia - Sistema para Avaliação de Feiras Científicas
   - - meta
     - property: og:url
-      content: https://avalia.hotay.dev/docs
+      content: https://avalia.hoffmann.io/docs
   - - meta
     - property: og:image
-      content: https://avalia.hotay.dev/docs/images/preview.jpg
+      content: https://avalia.hoffmann.io/docs/images/preview.jpg
 ---
 
-import { normalizeImagePath } from 'rspress/runtime';
+import { normalizeImagePath } from "rspress/runtime";
 
 # Configuração Inicial
 
@@ -27,17 +27,23 @@ Ao acessar a área administrativa, você encontrará várias abas que organizam 
 - **Configurações:** Configure as informações essenciais da feira.
 
 &nbsp;
-<img src={normalizeImagePath("/images/admin/first-view.png")} alt="Visão inicial" />
+
+<img
+  src={normalizeImagePath("/images/admin/first-view.png")}
+  alt="Visão inicial"
+/>
 &nbsp;
 
 ### Configuração Inicial na Aba "Configurações"
 
 A aba **Configurações** é onde toda a configuração inicial é feita. Aqui estão as principais etapas:
 
-1. **Definição das Datas da Feira:** 
+1. **Definição das Datas da Feira:**
+
    - Configure as **datas de início e término** da feira, que determinarão o período em que os avaliadores poderão acessar e avaliar os projetos.
 
 2. **Gerenciamento de Usuários Administrativos:**
+
    - **Convidar outros administradores:** Você pode adicionar outros usuários administrativos para ajudar na gestão da feira.
    - **Remover administradores:** Se necessário, também é possível remover administradores existentes.
 
@@ -45,13 +51,17 @@ A aba **Configurações** é onde toda a configuração inicial é feita. Aqui e
    - Para manter o Avalia **gratuito**, cada feira utiliza sua própria "fonte de dados", que é uma planilha do Google.
    - Disponibilizamos uma **[planilha modelo](https://docs.google.com/spreadsheets/d/1SfimzvUWXehgbfLYS_Pi2lABrWlWqjeU8_gX3xu2TXI/template/preview)** que você pode copiar e usar como base. Esta planilha contém todas as páginas e colunas necessárias, com instruções sobre quais partes não devem ser editadas, pois serão gerenciadas pelo sistema Avalia.
    - Após copiar a planilha modelo, compartilhe-a com **acesso de edição** com o e-mail:
-      ```bash
-          avalia-spreadsheet-reader@avalia-hotay.iam.gserviceaccount.com
-        ```
+     ```bash
+         avalia-spreadsheet-reader@avalia-hotay.iam.gserviceaccount.com
+     ```
    - Uma vez configurada e compartilhada, basta copiar o **link da planilha** e colá-lo na aba "Configurações" no sistema Avalia.
 
 &nbsp;
-<img src={normalizeImagePath("/images/admin/data-origin.png")} alt="Fonte de Dados" />
+
+<img
+  src={normalizeImagePath("/images/admin/data-origin.png")}
+  alt="Fonte de Dados"
+/>
 &nbsp;
 
 ### Pós configuração
