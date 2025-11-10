@@ -7,10 +7,10 @@ head:
       content: Avalia - Sistema para Avaliação de Feiras Científicas
   - - meta
     - property: og:url
-      content: https://avalia.hotay.dev/docs
+      content: https://avalia.hoffmann.io/docs
   - - meta
     - property: og:image
-      content: https://avalia.hotay.dev/docs/images/preview.jpg
+      content: https://avalia.hoffmann.io/docs/images/preview.jpg
 
 hero:
   name: Avalia
@@ -19,7 +19,7 @@ hero:
   actions:
     - theme: brand
       text: Acessar
-      link: https://avalia.hotay.dev
+      link: https://avalia.hoffmann.io
     - theme: alt
       text: Entenda mais
       link: /guide/introduction/general
@@ -39,8 +39,8 @@ features:
   - title: Privacidade e segurança de dados
     details: Todos os dados ficam com o cliente, sem compartilhamento ou venda de informações. Prezamos pela privacidade e segurança dos dados da feira.
     icon: 🔒
-  - title: Gratuito para escolas públicas
-    details: O sistema é oferecido gratuitamente para escolas públicas, promovendo a acessibilidade e a inclusão.
+  - title: Gratuito para escolas
+    details: O sistema é oferecido gratuitamente para escolas, promovendo a acessibilidade e a inclusão.
     icon: 🏫
   - title: Sem anúncios
     details: Não mostramos anúncios, proporcionando uma experiência limpa e focada nas necessidades dos usuários. Considere fazer uma doação para o projeto.

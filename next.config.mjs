@@ -3,7 +3,7 @@ const ContentSecurityPolicy = `
   default-src 'self';
   script-src 'self' 'unsafe-eval' 'unsafe-inline' apis.google.com;
   style-src 'self' 'unsafe-inline';
-  img-src 'self' www.hotay.dev data:;
+  img-src 'self' hoffmann.io data:;
   media-src 'none';
   connect-src *;
   font-src 'self' data: use.typekit.net;
