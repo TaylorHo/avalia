@@ -44,7 +44,8 @@ export default function Login() {
         </div>
       </div>
       <div className="max-w-lg w-full mb-8 flex justify-center gap-3">
-        <a
+        {/* TODO: Add video tutorial */}
+        {/* <a
           href="https://www.youtube.com/watch?v=l2nrsHpneqg"
           target="_blank"
           rel="noopener noreferrer"
@@ -66,7 +67,7 @@ export default function Login() {
             <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
           </svg>
           Assista nosso vídeo tutorial
-        </a>
+        </a> */}
         <a
           href="/docs"
           target="_blank"
