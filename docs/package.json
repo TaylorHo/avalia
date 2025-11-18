@@ -8,11 +8,11 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "@rspress/plugin-container-syntax": "^1.46.0",
-    "rspress": "^1.46.0"
+    "@rspress/plugin-container-syntax": "^1.46.1",
+    "rspress": "^1.46.1"
   },
   "devDependencies": {
-    "@types/node": "^24.10.0"
+    "@types/node": "^24.10.1"
   },
   "overrides": {
     "prismjs": "1.30.0"
