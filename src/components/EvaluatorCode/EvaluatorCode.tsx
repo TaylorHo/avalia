@@ -104,6 +104,7 @@ export default function EvaluatorCode({ callback }: Readonly<{ callback?: (code:
   };
 
   const sendButton = () => {
+    // biome-ignore lint/complexity/noExtraBooleanCast: These values can be 0, and if they're zero, a simple "if" will make them be "false", when 0 is still a valid value.
     if (!!valueOne && !!valueTwo && !!valueThree && !!valueFour && callback) {
       callback(`${valueOne}${valueTwo}${valueThree}${valueFour}`);
     }
